@@ -73,6 +73,8 @@ namespace Currencyconverter
 
             series.Points.AddXY(client.GetCurrencyDescription(comboBox_from.Text), decimal.Parse(CurrentFrom));
             series.Points.AddXY(client.GetCurrencyDescription(comboBox_To.Text), decimal.Parse(CurrentTo));
+
+
         }
 
 
